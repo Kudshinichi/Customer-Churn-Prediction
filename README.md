@@ -1,6 +1,8 @@
 Customer Churn Prediction using ANN
+
 📌 Project Overview
 This project aims to predict whether a bank customer will leave (churn) or stay, based on various demographic and financial factors. By using an Artificial Neural Network (ANN), the model identifies non-linear patterns in customer behavior to provide high-accuracy predictions.
+
 
 📊 Dataset
 The dataset customer_churn.csv includes 10,000 records with the following key features:
@@ -17,6 +19,7 @@ Estimated Salary
 
 Exited (Target Variable): 1 if the customer left, 0 if they stayed.
 
+
 🛠️ Tech Stack
 Language: Python
 
@@ -27,6 +30,7 @@ Data Manipulation: Pandas, NumPy
 Visualization: Matplotlib, Seaborn
 
 Preprocessing: Scikit-Learn (Label Encoding, One-Hot Encoding, Feature Scaling)
+
 
 🧠 Model Architecture
 The ANN is structured with the following layers:
@@ -40,6 +44,7 @@ Output Layer: A single neuron with a Sigmoid activation function to output the p
 Optimizer: Adam
 
 Loss Function: Binary Crossentropy
+
 📈 Results
 The model achieved an accuracy of approximately [Insert Your Accuracy]% on the test set.
 
